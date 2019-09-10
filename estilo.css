@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body#estilo {
+  margin-top: 70px;
+}
+
+#carouselHome {
+  height: 100vh;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.carousel-item {
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-item img {
+  height: 100%;
+}
+
+img#logo {
+  height: 75px;
+  width: 75px;
+}
+
+img#logoBarra {
+  height: 35px;
+  width: 35px;
+}
+
+img#portfolio{
+  height: 300px;
+  width: 100%;
+}
+
+#img1 {
+  align-content: center;
+  height: 35px;
+  width: 35px;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+p#botao {
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+
+.jumbotron{
+text-align: center;
+height: 50px;
+}

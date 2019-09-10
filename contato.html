@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+    <link rel="icon" href="img/logo2.ico">
+    <title>Contato</title>
+</head>
+
+<body id="estilo" class="bg-light">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+            <a class="d-inline-block align-top text-white">
+                <h6><strong>INK.CORPORATION</strong></h6>
+            </a>
+            <a class="navbar-brand"><img id="logoBarra" src="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarNavDropdown" class="navbar-collapse collapse">
+                <ul class="navbar-nav mr-auto"></ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="portfolioraul.html">Raul</a>
+                            <a class="dropdown-item" href="portfolioana.html">Ana</a>
+                            <a class="dropdown-item" href="portfoliomarcelo.html">Marcelo</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="preco.html">Preço</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container card bg-dark text-white">
+        <h2 class="text-center"><strong>Marcar Horário</strong></h2>
+        <form>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <label class="font-weight-bold">Nome Completo: </label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <label class="font-weight-bold">Idade: </label>
+                    <input type="number" class="form-control" id="idade" required>
+                </div>
+                <div class="col-4">
+                    <label class="font-weight-bold">Sexo:</label>
+                    <p></p>
+                    <input type="radio" name="sexo" id="masc">
+                    <label for="masc">Masculino
+                        <input type="radio" name="sexo" id="fem">
+                        <label for="fem">Feminino
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <label class="font-weight-bold">Endereço: </label>
+                    <input type="text" class="form-control" id="endereco" required>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <label for="nome" class="font-weight-bold">Email: </label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <label for="nome" class="font-weight-bold">Senha para usuário: </label>
+                    <input type="password" class="form-control" id="senha" required>
+                </div>
+                <div class="col-4">
+                    <label class="font-weight-bold">Escolha seu tatuador: </label>
+                    <p></p>
+                    <select>
+                        <option value="Ana">Ana</option>
+                        <option value="Marcelo">Marcelo</option>
+                        <option value="Raul">Raul</option>
+                    </select>
+                </div>
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                        <div class="form-group">
+                            <label for="arquivo" class="font-weight-bold">Referência para tatuagem: </label>
+                            <input type="file" id="arquivo">
+                        </div>
+                    </div>
+                <div class="col-2"></div>
+            </div>
+            <p></p>
+            <div class="col-2"></div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <button class="btn bg-primary btn-block text-white" type="submit">Incluir</button>
+                </div>
+                <div class="col-4">
+                        <button class="btn bg-danger btn-block text-white" type="reset">Limpar</button>
+                    </div>
+            </div>
+            <p></p>
+        </form>
+    </div>
+    <p></p><p></p>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
